@@ -35,7 +35,6 @@
   </div>
 </template>
 
-
 <script setup>
 import { ref } from 'vue';
 import { login } from '@/core/authService';
