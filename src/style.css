@@ -1,0 +1,28 @@
+/* src/style.css (o el archivo global) */
+
+/* Reinicio de estilos básico */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* Quitamos el fondo oscuro por defecto y usamos el color de Bootstrap */
+  background-color: #f8f9fa; /* Color light de Bootstrap */
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, "Noto Sans", sans-serif;
+  min-height: 100vh;
+}
+
+/* El contenedor principal de la App */
+#app {
+  /* Centrado típico y ancho máximo */
+  max-width: 1280px;
+  margin: 0 auto;
+  /* Quitamos el padding global para dejar que Bootstrap lo maneje */
+}
+
+/* Reglas básicas para enlaces y botones que no choquen con Bootstrap */
+a {
+  text-decoration: none;
+}
