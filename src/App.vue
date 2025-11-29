@@ -11,6 +11,18 @@
         </span>
         <div v-if="isAuthenticated()">
           <router-link
+            to="/estanque"
+            class="btn btn-sm btn-warnning me-2"
+          >
+            Estanques
+          </router-link>
+          <router-link
+            to="/nuevo-ciclo"
+            class="btn btn-sm btn-primary me-2"
+          >
+            Ciclos
+          </router-link>
+          <router-link
             to="/register-mortality"
             class="btn btn-sm btn-light me-2"
           >
